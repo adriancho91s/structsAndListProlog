@@ -6,9 +6,10 @@ Este conjunto de reglas y predicados en Prolog permite trabajar con segmentos y 
 
 - `segmento`: Define un segmento en el plano cartesiano, especificando sus dos extremos como puntos.
 - `conectados`: Verifica si dos segmentos están conectados en el plano, ya sea horizontal o verticalmente.
-- `poligono_cerrado`: Determina si un conjunto de segmentos forma un polígono cerrado.
-- `poligono`: Valida si un conjunto de segmentos forma un polígono con un número específico de lados.
+- `poligono_cerrado`: Valida que un conjunto de segmentos formen un polígono cerrado
+- `poligono`: Verifica si un conjunto de segmentos forma un polígono
 - `cuadrilatero`: Verifica si un conjunto de segmentos forma un cuadrilátero.
+- `triangulo`: válida si un conjunto de segmentos forma un triángulo
 - `cuadrado`: Determina si un conjunto de segmentos forma un cuadrado.
 - `rectangulo`: Valida si un conjunto de segmentos forma un rectángulo.
 
@@ -20,9 +21,9 @@ Este conjunto de reglas y predicados en Prolog permite trabajar con segmentos y 
 
 Se proporcionan algunos ejemplos de uso de los predicados definidos:
 
-- `ejemplo_cuadrado`: Verifica si un conjunto de segmentos forma un cuadrado.
-- `ejemplo_rectangulo`: Valida si un conjunto de segmentos forma un rectángulo.
-- `ejemplo_triangulo`: Determina si un conjunto de segmentos forma un triángulo.
+- `ejemplo_cuadrado`: Ejemplo de conjuntos de segmentos que forma un cuadrado.
+- `ejemplo_rectangulo`: Ejemplo de conjuntos de segmentos que forma un reactangulo.
+- `ejemplo_triangulo`: Ejemplo de conjuntos de segmentos que forma un triangulo.
 
 ## Uso
 

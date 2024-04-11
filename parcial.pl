@@ -5,7 +5,7 @@ segmento(punto(_, _), punto(_, _)).
 conectados(segmento(punto(_, Y), punto(X1, Y)), segmento(punto(X2, Y), _)) :-
     X1 =:= X2.
 
-% Rela para validar que un conjunto de segmentos formen un polígono cerrado
+% Regla para validar que un conjunto de segmentos formen un polígono cerrado
 poligono_cerrado(Segmentos) :-
     last(Segmentos, UltimoSegmento),
     nth0(0, Segmentos, PrimerSegmento),
@@ -46,6 +46,7 @@ cuadrado(Segmentos) :-
          segmento_longitud(segmento(punto(X1,Y1), punto(X,Y1)), L),
          segmento_longitud(segmento(punto(X,Y1), punto(X,Y)), L))).
 
+% Regla que calcula la longitud de un segmento
 segmento_longitud(segmento(punto(X1, Y1), punto(X2, Y2)), Longitud) :-
     Longitud is sqrt((X2 - X1) ** 2 + (Y2 - Y1) ** 2).
 
