@@ -71,9 +71,9 @@ rectangulo(Segmentos) :-
 % Ejemplo de consulta para verificar si un conjunto de segmentos ordenados forma un cuadrado
 ejemplo_cuadrado:- cuadrado(
                        [segmento(punto(1,1), punto(1,4)), 
-                        segmento(punto(1,4), punto(5,4)), 
-                        segmento(punto(5,4), punto(5,1)),
-                        segmento(punto(5,1), punto(1,1))]).
+                        segmento(punto(1,4), punto(4,4)), 
+                        segmento(punto(4,4), punto(4,1)),
+                        segmento(punto(4,1), punto(1,1))]).
 
 % Ejemplo de consulta para verificar si un conjunto de segmentos ordenados forma un rectángulo
 ejemplo_rectangulo:- rectangulo(
