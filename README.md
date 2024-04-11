@@ -14,8 +14,6 @@ Este conjunto de reglas y predicados en Prolog permite trabajar con segmentos y 
 
 ## Predicados Auxiliares
 
-- `horizontal`: Auxiliar para validar si un segmento es horizontal.
-- `vertical`: Auxiliar para validar si un segmento es vertical.
 - `segmento_longitud`: Calcula la longitud de un segmento en el plano cartesiano.
 
 ## Ejemplos
